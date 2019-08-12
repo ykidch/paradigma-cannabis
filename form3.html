@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" 
+					type="text/css"
+					href="form.css" />
+	</head>
+	<body>
+		<div id="sheet1" class="sheet">
+			<div class="sheetheader">
+				<span class="headertext">CUESTIONARIO</span>
+			</div>
+			<form name="form3" id="form3" onsubmit="return Submit()">
+			<table id="table3" class="questiontable">
+				<tr id="instr" class="section">
+					<td>
+						<span class="instrtext"><p>Indica qué tan de acuerdo o en desacuerdo estás con cada una de las siguientes afirmaciones marcando el espacio correspondiente entre "totalmente en desacuerdo" y "totalmente de acuerdo". Qué tan cerca esté la marca de alguno de los extremos indica qué tanto estás de acuerdo o en desacuerdo. Si no estás de acuerdo ni en desacuerdo con la afirmación, marque el espacio de en medio. Estamos interesados en saber lo que estás pensando o sintiendo <i>en este momento</i> mientras estés llenando el cuestionario.</p></span>
+					</td>
+				</tr>
+
+				<tr class="section">
+					<td>
+						<table id="mcqsf_before" class="matrix">
+							<tr class="matrix_header">
+								<td class="matrix_blankspace"></td>
+								<td class="matrix_question"></td>
+								<td class="matrix_ans"> Totalmente en desacuerdo</td>
+								<td class="matrix_ans"></td>
+								<td class="matrix_ans"></td>
+								<td class="matrix_ans">Ni de acuerdo ni en desacuerdo</td>
+								<td class="matrix_ans"></td>
+								<td class="matrix_ans"></td>
+								<td class="matrix_ans">Totalmente de acuerdo</td>						
+							</tr>
+
+							<tr id="q1" class="matrix_row">
+								<td class="matrix_blankspace"></td>
+								<td class="matrix_question">
+									Fumar marihuana sería placentero ahora
+								</td>
+								<td class="matrix_ans">
+										<input type="radio" name="mcqsf_before_1" id="mcqsf_before_1_1" value="1" required>
+								</td>
+								<td class="matrix_ans">	
+										<input type="radio" name="mcqsf_before_1" id="mcqsf_before_1_2" value="2" required>
+								</td>							
+								<td class="matrix_ans">							
+										<input type="radio" name="mcqsf_before_1" id="mcqsf_before_1_3" value="3" required>
+								</td>
+								<td class="matrix_ans">							
+										<input type="radio" name="mcqsf_before_1" id="mcqsf_before_1_4" value="4" required>
+								</td>
+								<td class="matrix_ans">							
+										<input type="radio" name="mcqsf_before_1" id="mcqsf_before_1_5" value="5" required>
+								</td>
+								<td class="matrix_ans">							
+										<input type="radio" name="mcqsf_before_1" id="mcqsf_before_1_6" value="6" required>
+								</td>
+								<td class="matrix_ans">							
+										<input type="radio" name="mcqsf_before_1" id="mcqsf_before_1_7" value="7" required>
+								</td>								
+							</tr>
+
+							<tr id="q2" class="matrix_row">
+								<td class="matrix_blankspace"></td>
+								<td class="matrix_question">
+									No podría controlar fácilmente la cantidad de marihuana que fumaría ahora
+								</td>
+								<td class="matrix_ans">
+										<input type="radio" name="mcqsf_before_2" id="mcqsf_before_2_1" value="1" required>
+								</td>
+								<td class="matrix_ans">	
+										<input type="radio" name="mcqsf_before_2" id="mcqsf_before_2_2" value="2" required> 
+								</td>							
+								<td class="matrix_ans">							
+										<input type="radio" name="mcqsf_before_2" id="mcqsf_before_2_3" value="3" required>
+								</td>
+								<td class="matrix_ans">							
+										<input type="radio" name="mcqsf_before_2" id="mcqsf_before_2_4" value="4" required>
+								</td>
+								<td class="matrix_ans">							
+										<input type="radio" name="mcqsf_before_2" id="mcqsf_before_2_5" value="5" required>
+								</td>
+								<td class="matrix_ans">							
+										<input type="radio" name="mcqsf_before_2" id="mcqsf_before_2_6" value="6" required>
+								</td>
+								<td class="matrix_ans">							
+										<input type="radio" name="mcqsf_before_2" id="mcqsf_before_2_7" value="7" required>
+								</td>								
+							</tr>
+
+							<tr id="q3" class="matrix_row">
+								<td class="matrix_blankspace"></td>
+								<td class="matrix_question">
+									En este momento estoy haciendo planes para usar marihuana
+								</td>
+								<td class="matrix_ans">
+										<input type="radio" name="mcqsf_before_3" id="mcqsf_before_3_1" value="1" required>
+								</td>
+								<td class="matrix_ans">	
+										<input type="radio" name="mcqsf_before_3" id="mcqsf_before_3_2" value="2" required>
+								</td>							
+								<td class="matrix_ans">							
+										<input type="radio" name="mcqsf_before_3" id="mcqsf_before_3_3" value="3" required>
+								</td>
+								<td class="matrix_ans">							
+										<input type="radio" name="mcqsf_before_3" id="mcqsf_before_3_4" value="4" required>
+								</td>
+								<td class="matrix_ans">							
+										<input type="radio" name="mcqsf_before_3" id="mcqsf_before_3_5" value="5" required>
+								</td>
+								<td class="matrix_ans">							
+										<input type="radio" name="mcqsf_before_3" id="mcqsf_before_3_6" value="6" required>
+								</td>
+								<td class="matrix_ans">							
+										<input type="radio" name="mcqsf_before_3" id="mcqsf_before_3_7" value="7" required>
+								</td>								
+							</tr>
+
+							<tr id="q4" class="matrix_row">
+								<td class="matrix_blankspace"></td>
+								<td class="matrix_question">
+									Me sentiría más en control de las cosas si pudiera fumar marihuana ahora
+								</td>
+								<td class="matrix_ans">
+										<input type="radio" name="mcqsf_before_4" id="mcqsf_before_4_1" value="1" required>
+								</td>
+								<td class="matrix_ans">	
+										<input type="radio" name="mcqsf_before_4" id="mcqsf_before_4_2" value="2" required>
+								</td>							
+								<td class="matrix_ans">							
+										<input type="radio" name="mcqsf_before_4" id="mcqsf_before_4_3" value="3" required>
+								</td>
+								<td class="matrix_ans">							
+										<input type="radio" name="mcqsf_before_4" id="mcqsf_before_4_4" value="4" required>
+								</td>
+								<td class="matrix_ans">							
+										<input type="radio" name="mcqsf_before_4" id="mcqsf_before_4_5" value="5" required> 
+								</td>
+								<td class="matrix_ans">							
+										<input type="radio" name="mcqsf_before_4" id="mcqsf_before_4_6" value="6" required>
+								</td>
+								<td class="matrix_ans">							
+										<input type="radio" name="mcqsf_before_4" id="mcqsf_before_4_7" value="7" required>
+								</td>								
+							</tr>
+
+							<tr id="q5" class="matrix_row">
+								<td class="matrix_blankspace"></td>
+								<td class="matrix_question">
+									Fumar marihuana me ayudaría a dormir mejor de noche
+								</td>
+								<td class="matrix_ans">
+										<input type="radio" name="mcqsf_before_5" id="mcqsf_before_5_1" value="1" required>
+								</td>
+								<td class="matrix_ans">	
+										<input type="radio" name="mcqsf_before_5" id="mcqsf_before_5_2" value="2" required>
+								</td>							
+								<td class="matrix_ans">							
+										<input type="radio" name="mcqsf_before_5" id="mcqsf_before_5_3" value="3" required>
+								</td>
+								<td class="matrix_ans">							
+										<input type="radio" name="mcqsf_before_5" id="mcqsf_before_5_4" value="4" required>
+								</td>
+								<td class="matrix_ans">							
+										<input type="radio" name="mcqsf_before_5" id="mcqsf_before_5_5" value="5" required>
+								</td>
+								<td class="matrix_ans">							
+										<input type="radio" name="mcqsf_before_5" id="mcqsf_before_5_6" value="6" required>
+								</td>
+								<td class="matrix_ans">							
+										<input type="radio" name="mcqsf_before_5" id="mcqsf_before_5_7" value="7" required>
+								</td>								
+							</tr>
+
+							<tr id="q6" class="matrix_row">
+								<td class="matrix_blankspace"></td>
+								<td class="matrix_question">
+									Si fumara marihuana ahora, me sentiría menos tenso(a)
+								</td>
+								<td class="matrix_ans">
+										<input type="radio" name="mcqsf_before_6" id="mcqsf_before_6_1" value="1" required>
+								</td>
+								<td class="matrix_ans">	
+										<input type="radio" name="mcqsf_before_6" id="mcqsf_before_6_2" value="2" required>
+								</td>							
+								<td class="matrix_ans">							
+										<input type="radio" name="mcqsf_before_6" id="mcqsf_before_6_3" value="3" required>
+								</td>
+								<td class="matrix_ans">							
+										<input type="radio" name="mcqsf_before_6" id="mcqsf_before_6_4" value="4" required>
+								</td>
+								<td class="matrix_ans">							
+										<input type="radio" name="mcqsf_before_6" id="mcqsf_before_6_5" value="5" required>
+								</td>
+								<td class="matrix_ans">							
+										<input type="radio" name="mcqsf_before_6" id="mcqsf_before_6_6" value="6" required>
+								</td>
+								<td class="matrix_ans">							
+										<input type="radio" name="mcqsf_before_6" id="mcqsf_before_6_7" value="7" required>
+								</td>								
+							</tr>					
+		
+							<tr id="q7" class="matrix_row">
+								<td class="matrix_blankspace"></td>
+								<td class="matrix_question">
+									No sería capaz de controlar la cantidad de marihuana que fumaría si la tuviese aquí ahora
+								</td>
+								<td class="matrix_ans">
+										<input type="radio" name="mcqsf_before_7" id="mcqsf_before_7_1" value="1" required>
+								</td>
+								<td class="matrix_ans">	
+										<input type="radio" name="mcqsf_before_7" id="mcqsf_before_7_2" value="2" required>
+								</td>							
+								<td class="matrix_ans">							
+										<input type="radio" name="mcqsf_before_7" id="mcqsf_before_7_3" value="3" required>
+								</td>
+								<td class="matrix_ans">							
+										<input type="radio" name="mcqsf_before_7" id="mcqsf_before_7_4" value="4" required>
+								</td>
+								<td class="matrix_ans">							
+										<input type="radio" name="mcqsf_before_7" id="mcqsf_before_7_5" value="5" required>
+								</td>
+								<td class="matrix_ans">							
+										<input type="radio" name="mcqsf_before_7" id="mcqsf_before_7_6" value="6" required>
+								</td>
+								<td class="matrix_ans">							
+										<input type="radio" name="mcqsf_before_7" id="mcqsf_before_7_7" value="7" required>
+								</td>								
+							</tr>		
+
+							<tr id="q8" class="matrix_row">
+								<td class="matrix_blankspace"></td>
+								<td class="matrix_question">
+									Sería genial fumar marihuana ahora
+								</td>
+								<td class="matrix_ans">
+										<input type="radio" name="mcqsf_before_8" id="mcqsf_before_8_1" value="1" required>
+								</td>
+								<td class="matrix_ans">	
+										<input type="radio" name="mcqsf_before_8" id="mcqsf_before_8_2" value="2" required>
+								</td>							
+								<td class="matrix_ans">							
+										<input type="radio" name="mcqsf_before_8" id="mcqsf_before_8_3" value="3" required>
+								</td>
+								<td class="matrix_ans">							
+										<input type="radio" name="mcqsf_before_8" id="mcqsf_before_8_4" value="4" required>
+								</td>
+								<td class="matrix_ans">							
+										<input type="radio" name="mcqsf_before_8" id="mcqsf_before_8_5" value="5" required>
+								</td>
+								<td class="matrix_ans">							
+										<input type="radio" name="mcqsf_before_8" id="mcqsf_before_8_6" value="6" required>
+								</td>
+								<td class="matrix_ans">							
+										<input type="radio" name="mcqsf_before_8" id="mcqsf_before_8_7" value="7" required>
+								</td>								
+							</tr>		
+
+							<tr id="q9" class="matrix_row">
+								<td class="matrix_blankspace"></td>
+								<td class="matrix_question">
+									Me sentiría menos ansioso(a) si fumara marihuana ahora
+								</td>
+								<td class="matrix_ans">
+										<input type="radio" name="mcqsf_before_9" id="mcqsf_before_9_1" value="1" required>
+								</td>
+								<td class="matrix_ans">	
+										<input type="radio" name="mcqsf_before_9" id="mcqsf_before_9_2" value="2" required>
+								</td>							
+								<td class="matrix_ans">							
+										<input type="radio" name="mcqsf_before_9" id="mcqsf_before_9_3" value="3" required>
+								</td>
+								<td class="matrix_ans">							
+										<input type="radio" name="mcqsf_before_9" id="mcqsf_before_9_4" value="4" required>
+								</td>
+								<td class="matrix_ans">							
+										<input type="radio" name="mcqsf_before_9" id="mcqsf_before_9_5" value="5" required>
+								</td>
+								<td class="matrix_ans">							
+										<input type="radio" name="mcqsf_before_9" id="mcqsf_before_9_6" value="6" required>
+								</td>
+								<td class="matrix_ans">							
+										<input type="radio" name="mcqsf_before_9" id="mcqsf_before_9_7" value="7" required>
+								</td>								
+							</tr>		
+
+							<tr id="q10" class="matrix_row">
+								<td class="matrix_blankspace"></td>
+								<td class="matrix_question">
+									Necesito fumar marihuana ahora
+								</td>
+								<td class="matrix_ans">
+										<input type="radio" name="mcqsf_before_10" id="mcqsf_before_10_1" value="1" required>
+								</td>
+								<td class="matrix_ans">	
+										<input type="radio" name="mcqsf_before_10" id="mcqsf_before_10_2" value="2" required>
+								</td>							
+								<td class="matrix_ans">							
+										<input type="radio" name="mcqsf_before_10" id="mcqsf_before_10_3" value="3" required>
+								</td>
+								<td class="matrix_ans">							
+										<input type="radio" name="mcqsf_before_10" id="mcqsf_before_10_4" value="4" required>
+								</td>
+								<td class="matrix_ans">							
+										<input type="radio" name="mcqsf_before_10" id="mcqsf_before_10_5" value="5" required>
+								</td>
+								<td class="matrix_ans">							
+										<input type="radio" name="mcqsf_before_10" id="mcqsf_before_10_6" value="6" required>
+								</td>
+								<td class="matrix_ans">							
+										<input type="radio" name="mcqsf_before_10" id="mcqsf_before_10_7" value="7" required>
+								</td>								
+							</tr>		
+
+							<tr id="q11" class="matrix_row">
+								<td class="matrix_blankspace"></td>
+								<td class="matrix_question">
+									Si estuviera fumando marihuana ahora, me sentiría menos nervioso(a)
+								</td>
+								<td class="matrix_ans">
+										<input type="radio" name="mcqsf_before_11" id="mcqsf_before_11_1" value="1" required>
+								</td>
+								<td class="matrix_ans">	
+										<input type="radio" name="mcqsf_before_11" id="mcqsf_before_11_2" value="2" required>
+								</td>							
+								<td class="matrix_ans">							
+										<input type="radio" name="mcqsf_before_11" id="mcqsf_before_11_3" value="3" required>
+								</td>
+								<td class="matrix_ans">							
+										<input type="radio" name="mcqsf_before_11" id="mcqsf_before_11_4" value="4" required>
+								</td>
+								<td class="matrix_ans">							
+										<input type="radio" name="mcqsf_before_11" id="mcqsf_before_11_5" value="5" required>
+								</td>
+								<td class="matrix_ans">							
+										<input type="radio" name="mcqsf_before_11" id="mcqsf_before_11_6" value="6" required>
+								</td>
+								<td class="matrix_ans">							
+										<input type="radio" name="mcqsf_before_11" id="mcqsf_before_11_7" value="7" required>
+								</td>								
+							</tr>		
+
+							<tr id="q12" class="matrix_row">
+								<td class="matrix_blankspace"></td>
+								<td class="matrix_question">
+									Fumar marihuana me haría sentir satisfecho(a)
+								</td>
+								<td class="matrix_ans">
+										<input type="radio" name="mcqsf_before_12" id="mcqsf_before_12_1" value="1" required>
+								</td>
+								<td class="matrix_ans">	
+										<input type="radio" name="mcqsf_before_12" id="mcqsf_before_12_2" value="2" required>
+								</td>							
+								<td class="matrix_ans">							
+										<input type="radio" name="mcqsf_before_12" id="mcqsf_before_12_3" value="3" required>
+								</td>
+								<td class="matrix_ans">							
+										<input type="radio" name="mcqsf_before_12" id="mcqsf_before_12_4" value="4" required>
+								</td>
+								<td class="matrix_ans">							
+										<input type="radio" name="mcqsf_before_12" id="mcqsf_before_12_5" value="5" required>
+								</td>
+								<td class="matrix_ans">							
+										<input type="radio" name="mcqsf_before_12" id="mcqsf_before_12_6" value="6" required>
+								</td>
+								<td class="matrix_ans">							
+										<input type="radio" name="mcqsf_before_12" id="mcqsf_before_12_7" value="7" required>
+								</td>								
+							</tr>		
+						</td>
+
+					</table>
+				</tr>
+				<tr class="section">
+					<td class="surveysubmit">
+						<input type="submit" class="submitbutton" value="Siguiente">
+					</td>
+				</tr>
+			</table>
+			</form>
+		</div>
+
+		<script src="form3.js"></script>
+		<script src="form_global.js"></script>
+
+	</body>
+</html>
+

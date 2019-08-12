@@ -1,0 +1,102 @@
+body {
+	background: #333333;
+	margin: 0px;
+	padding: 0px;	
+}
+
+
+
+.sheet {
+	width: 90%;
+	margin: auto;
+}
+
+.sheetheader {
+	height: 100px;
+	width:100%;
+	text-align:left;
+	background-color: #FFFFFF;
+	}
+
+.headertext {
+	display: inline-block;
+	margin-left: 30px;
+	margin-top: 30px;
+	font-family: Helvetica;
+	font-size: 20px;
+	font-weight: bold;	
+}
+
+
+.questiontable {
+	border-collapse: collapse;
+	width: 100%;
+	background-color: #EAEAEA;
+	font-family: Helvetica;
+	font-size: 13px;
+}
+
+.instrtext {
+	display: block;
+	text-align:left;
+	padding: 20px;
+	margin: 10px;
+}
+
+
+tr.section {
+	border-bottom: 1px solid #AAAAAA;		
+}
+
+td.blankspace {
+	width:7%;
+}
+
+td.question {
+	width: 50%;
+	padding: 10px;
+	text-align:left;
+	;
+}
+
+td.answer {
+	padding: 10px;
+	text-align: left;
+}
+
+table.matrix {
+	border-collapse: collapse;
+	border: 1px solid #AAAAAA;
+}
+
+tr.matrix_header {
+	font-size: 10px;
+	color: #551515;
+	text-align: center;
+	border-bottom: 1px solid #AAAAAA;
+}
+
+tr.matrix_row {
+	border-bottom: 1px solid #AAAAAA;
+}
+
+.matrix_blankspace {
+	width: 5%;
+}
+
+.matrix_question {
+	padding: 13px;
+	text-align: left;
+}
+
+
+.matrix_ans {
+	text-align: center;
+	margin: auto;
+	width: 8%;
+}
+
+.submitbutton {
+	display:block;
+	margin:auto;
+}

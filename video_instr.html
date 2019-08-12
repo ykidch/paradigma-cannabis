@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" 
+					type="text/css"
+					href="form.css" />
+		<link rel="stylesheet"
+					type="text/css"
+					href="video.css" />
+	</head>
+	<body>
+		<div id="sheet1" class="sheet">
+			<div class="sheetheader">
+				<span class="headertext" style="text-align:center">INSTRUCCIONES PARTE 1/2</span>
+			</div>
+			
+			<table id="table1" class="questiontable">
+				<tr id="instr" class="section">
+					<td>		
+						<span style="font-size: 16px; display: block; padding: 30px">
+						A continuación te presentaremos un video. Te pediremos que veas todo el video de corrido y estés en todo momento poniendo atención. No podrás pausar el video ni tampoco adelantarlo o regresar a escenas previas.<br />
+						<br />
+						Debajo del video, verás una barra así:	<br />
+						<br />
+						</span>
+					</td>
+				</tr>
+
+				<tr class="section">
+					<td>
+						<div id="bar">
+								<div id="bar_left">							
+									<span class="sidetext" id="bar_left_text"><p>Deseo de<br />consumir<br />marihuana</p></span>
+								</div>
+								<div id="bar_num">
+									<div id="bar_num1">								
+													<span class="numtext" id="bar_num1_text"><p>Nada<br />(1)</p></span>
+									</div>
+									<div id="bar_num2">
+													<span class="numtext" id="bar_num2_text"><p>Poco<br />(2)</p></span>
+									</div>
+									<div id="bar_num3">
+													<span class="numtext" id="bar_num3_text"><p>Mucho<br />(3)</p></span>
+									</div>				
+									<div id="bar_num4">
+													<span class="numtext" id="bar_num4_text"><p>Demasiado<br />(4)</p></span>
+									</div>	
+								</div>
+								<div id="bar_right">
+										<div id="bar_right1">
+											<img src="speaker.png" id="speaker" />
+										</div>
+										<div id="bar_right2">
+											<input type="range" id="volume" min="0" max="1" value="0.40" step="0.05" />	
+										</div>
+								</div>
+							</div>
+					</td>
+				</tr>
+				
+				<tr class="section">
+					<td>
+						<span style="font-size: 16px; display: block; padding: 30px">
+						Puedes controlarla con las teclas "1", "2", "3" y "4" en tu teclado - pruébalo aquí mismo. A la derecha de los números hay un controlador de volumen con el cual podrás ajustar el volumen del video.<br />
+						<br />
+						Te pediremos que con esa barra nos señales en todo momento del video cuánto deseo tienes, o cuánto se te antoja, consumir marihuana. Los números significan lo siguiente: <br />
+						<ul>
+										<li> 1: Nada de deseo de consumir marihuana </li>
+										<li> 2: Poco deseo de consumir marihuana </li>
+										<li> 3: Mucho deseo de consumir marihuana </li>
+										<li> 4: Demasiado deseo de consumir marihuana </li>
+						</ul>
+						<br />
+						El video no te va a preguntar cuánto deseo tienes de consumir marihuana, así que tú tendrás que cambiar el número de la barra dependiendo de cómo te vayas sintiendo. Por ejemplo, si al ver una escena X se te empieza a antojar mucho fumar marihuana, presiona "3", y si después notas que ya no tienes ganas de fumar, presiona "1".
+						<br />
+						<br />
+						<strong>Pregunta:</strong>Si por ejemplo en todo el video tengo pocas ganas de fumar marihuana (2), ¿tengo que apretar el 2 repetidamente?
+						<br />
+						<strong>Respuesta:</strong>No - sólo basta con que lo aprietes una vez para que el recuadro con el "2" se ilumine, y sabremos que todo el tiempo que esté iluminado el "2" tuviste poco deseo de fumar marihuana.
+						<br />
+						<br />
+						La barra empieza, por defecto, en 1 (nada de deseo de consumir), pero puedes cambiar eso desde el principio.
+						</span>
+					</td>
+				</tr>
+			
+				<tr class="section">
+					<td class="surveysubmit">
+						<button type="button" style="display: block; margin: auto" onclick="window.location.replace('video_instr2.html')">Siguiente</button>
+					
+					</td>
+				</tr>
+			</table>
+			
+		</div>
+		<script src="video_instr.js"></script>
+	</body>
+</html>

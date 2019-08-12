@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet"
+					type="text/css"
+					href="video.css" />
+	</head>	
+	<body>			
+		<div id="whole">
+			<div id="vid">
+							<span id="vid_text"><p><!--Haz click aquí para comenzar<br /><br />El video comenzará después de 10 segundos.--></p></span>
+<!--
+						<video id="player" controls>
+							<source src='cannabisv2_wrfs.mp4' type='video/mp4'>
+						</video>				
+-->
+							<div id="player" style="pointer-events: none; width: 100%; height: 100%"></div>
+			</div>
+
+			<div id="attentionbar">
+							<strong>X</strong>
+			</div>
+
+			<div id="bar">
+				<div id="bar_left">							
+					<span class="sidetext" id="bar_left_text"><p>Deseo de<br />consumir<br />marihuana</p></span>
+				</div>
+				<div id="bar_num">
+					<div id="bar_num1">								
+									<span class="numtext" id="bar_num1_text"><p>Nada<br />(1)</p></span>
+					</div>
+					<div id="bar_num2">
+									<span class="numtext" id="bar_num2_text"><p>Poco<br />(2)</p></span>
+					</div>
+					<div id="bar_num3">
+									<span class="numtext" id="bar_num3_text"><p>Mucho<br />(3)</p></span>
+					</div>				
+					<div id="bar_num4">
+									<span class="numtext" id="bar_num4_text"><p>Demasiado<br />(4)</p></span>
+					</div>	
+				</div>
+				<div id="bar_right">
+						<div id="bar_right1">
+							<img src="speaker.png" id="speaker" />
+						</div>
+						<div id="bar_right2">
+							<input type="range" id="volume" min="0" max="1" value="0.40" step="0.05" onchange="changeVolume()" />	
+						</div>
+				</div>
+			</div>
+		</div>
+		<script src="videoyt.js"></script>
+	</body>
+</html>

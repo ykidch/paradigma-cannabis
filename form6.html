@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" 
+					type="text/css"
+					href="form.css" />
+	</head>
+	<body>
+		<div id="sheet1" class="sheet">
+			<div class="sheetheader">
+				<span class="headertext">CUESTIONARIO</span>
+			</div>
+			<form name="form6" id="form6" onsubmit="return Submit()">
+			<table id="table6" class="questiontable">
+				<tr id="instr" class="section">
+					<td colspan="3">
+									<span class="instrtext"><p>
+										Por favor responda las siguientes preguntas acerca de su consumo de cannabis. Seleccione la respuesta que es más adecuada para usted en relación con su consumo de cannabis en los últimos 6 meses.
+										</p></span>
+
+					</td>
+				</tr>
+
+				<tr id="q1" class="section">
+								<td class="blankspace"></td>
+								<td class="question">
+												¿Qué tan seguido consume cannabis?
+								</td>
+								<td class="answer">
+												<input type="radio" name="cudit_1" id="cudit_1_1" value="0" required> <label for="cudit_1_1">Nunca</label><br />
+												<input type="radio" name="cudit_1" id="cudit_1_2" value="1" required> <label for="cudit_1_2">1 vez al mes o menos</label><br />
+												<input type="radio" name="cudit_1" id="cudit_1_3" value="2" required> <label for="cudit_1_3">De 2 a 4 veces al mes</label><br />
+												<input type="radio" name="cudit_1" id="cudit_1_4" value="3" required> <label for="cudit_1_4">De 2 a 3 veces a la semana</label><br />
+												<input type="radio" name="cudit_1" id="cudit_1_5" value="4" required> <label for="cudit_1_5">4 ó más veces a la semana</label><br />
+							</td>
+				</tr>
+
+				<tr id="q2" class="section">
+								<td class="blankspace"></td>
+								<td class="question">
+											¿Cuántas horas está bajo el efecto "stoned" (drogado) en un día típico de consumo de cannabis?
+								</td>
+								<td class="answer">
+												<input type="radio" name="cudit_2" id="cudit_2_1" value="0" required> <label for="cudit_2_1">Menos de 1</label><br />
+												<input type="radio" name="cudit_2" id="cudit_2_2" value="1" required> <label for="cudit_2_2">1 ó 2</label><br />
+												<input type="radio" name="cudit_2" id="cudit_2_3" value="2" required> <label for="cudit_2_3">3 ó 4</label><br />
+												<input type="radio" name="cudit_2" id="cudit_2_4" value="3" required> <label for="cudit_2_4">5 ó 6</label><br />
+												<input type="radio" name="cudit_2" id="cudit_2_5" value="4" required> <label for="cudit_2_5">7 ó más</label><br />
+							</td>
+				</tr>
+
+				<tr id="q3" class="section">
+								<td class="blankspace"></td>
+								<td class="question">
+											¿Qué tan seguido en los 6 meses anteriores notó que usted no podía dejar de consumir cannabis ya que había iniciado?
+								</td>
+								<td class="answer">
+												<input type="radio" name="cudit_3" id="cudit_3_1" value="0" required> <label for="cudit_3_1">Nunca</label><br />
+												<input type="radio" name="cudit_3" id="cudit_3_2" value="1" required> <label for="cudit_3_2">Menos de una vez al mes</label><br />
+												<input type="radio" name="cudit_3" id="cudit_3_3" value="2" required> <label for="cudit_3_3">Cada mes</label><br />
+												<input type="radio" name="cudit_3" id="cudit_3_4" value="3" required> <label for="cudit_3_4">Cada semana</label><br />
+												<input type="radio" name="cudit_3" id="cudit_3_5" value="4" required> <label for="cudit_3_5">Diario o casi diario</label><br />
+								</td>
+				</tr>
+
+				<tr id="q4" class="section">
+								<td class="blankspace"></td>
+								<td class="question">
+											¿Que tan seguido, en los pasados 6 meses, falló en hacer lo que se esperaba de usted por consumir cannabis?
+								</td>
+								<td class="answer">
+												<input type="radio" name="cudit_4" id="cudit_4_1" value="0" required> <label for="cudit_4_1">Nunca</label><br />
+												<input type="radio" name="cudit_4" id="cudit_4_2" value="1" required> <label for="cudit_4_2">Menos de una vez al mes</label><br />
+												<input type="radio" name="cudit_4" id="cudit_4_3" value="2" required> <label for="cudit_4_3">Cada mes</label><br />
+												<input type="radio" name="cudit_4" id="cudit_4_4" value="3" required> <label for="cudit_4_4">Cada semana</label><br />
+												<input type="radio" name="cudit_4" id="cudit_4_5" value="4" required> <label for="cudit_4_5">Diario o casi diario</label><br />
+							</td>
+				</tr>
+
+				<tr id="q5" class="section">
+								<td class="blankspace"></td>
+								<td class="question">
+											¿Qué tan seguido en los pasados 6 meses ha dedicado una gran cantidad de su tiempo en conseguir, usar, o recuperarse del cannabis?
+								</td>
+								<td class="answer">
+												<input type="radio" name="cudit_5" id="cudit_5_1" value="0" required> <label for="cudit_5_1">Nunca</label><br />
+												<input type="radio" name="cudit_5" id="cudit_5_2" value="1" required> <label for="cudit_5_2">Menos de una vez al mes</label><br />
+												<input type="radio" name="cudit_5" id="cudit_5_3" value="2" required> <label for="cudit_5_3">Cada mes</label><br />
+												<input type="radio" name="cudit_5" id="cudit_5_4" value="3" required> <label for="cudit_5_4">Cada semana</label><br />
+												<input type="radio" name="cudit_5" id="cudit_5_5" value="4" required> <label for="cudit_5_5">Diario o casi diario</label><br />
+							</td>
+				</tr>
+
+				<tr id="q6" class="section">
+								<td class="blankspace"></td>
+								<td class="question">
+											¿Qué tan seguido en los 6 meses anteriores ha tenido problemas de memoria o concentración después de usar cannabis?
+								</td>
+								<td class="answer">
+												<input type="radio" name="cudit_6" id="cudit_6_1" value="0" required> <label for="cudit_6_1">Nunca</label><br />
+												<input type="radio" name="cudit_6" id="cudit_6_2" value="1" required> <label for="cudit_6_2">Menos de una vez al mes</label><br />
+												<input type="radio" name="cudit_6" id="cudit_6_3" value="2" required> <label for="cudit_6_3">Cada mes</label><br />
+												<input type="radio" name="cudit_6" id="cudit_6_4" value="3" required> <label for="cudit_6_4">Cada semana</label><br />
+												<input type="radio" name="cudit_6" id="cudit_6_5" value="4" required> <label for="cudit_6_5">Diario o casi diario</label><br />
+							</td>
+				</tr>
+
+				<tr id="q7" class="section">
+								<td class="blankspace"></td>
+								<td class="question">
+											¿Qué tan seguido usa cannabis en situaciones que pueden ser peligrosas, como manejar, operar maquinaria o cuidando niños?
+								</td>
+								<td class="answer">
+												<input type="radio" name="cudit_7" id="cudit_7_1" value="0" required> <label for="cudit_7_1">Nunca</label><br />
+												<input type="radio" name="cudit_7" id="cudit_7_2" value="1" required> <label for="cudit_7_2">Menos de una vez al mes</label><br />
+												<input type="radio" name="cudit_7" id="cudit_7_3" value="2" required> <label for="cudit_7_3">Cada mes</label><br />
+												<input type="radio" name="cudit_7" id="cudit_7_4" value="3" required> <label for="cudit_7_4">Cada semana</label><br />
+												<input type="radio" name="cudit_7" id="cudit_7_5" value="4" required> <label for="cudit_7_5">Diario o casi diario</label><br />
+							</td>
+				</tr>
+
+				<tr id="q8" class="section">
+								<td class="blankspace"></td>
+								<td class="question">
+											¿Ha pensado alguna vez en reducir o dejar de consumir cannabis?
+								</td>
+								<td class="answer">
+												<input type="radio" name="cudit_8" id="cudit_8_1" value="0" required> <label for="cudit_8_1">Nunca</label><br />
+												<input type="radio" name="cudit_8" id="cudit_8_3" value="2" required> <label for="cudit_8_3">Sí, pero no en los pasados 6 meses</label><br />
+												<input type="radio" name="cudit_8" id="cudit_8_5" value="4" required> <label for="cudit_8_5">Diario o casi diario</label><br />
+							</td>
+				</tr>
+
+				<tr class="section">
+					<td class="surveysubmit" colspan="3">
+						<input type="submit" class="submitbutton" value="Siguiente">
+					</td>
+				</tr>
+
+			</table>
+			</form>
+		</div>
+
+		<script src="form6.js"></script>
+		<script src="form_global.js"></script>
+
+	</body>
+</html>
+

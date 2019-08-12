@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" 
+					type="text/css"
+					href="form.css" />
+	</head>
+	<body>
+		<div id="sheet1" class="sheet">
+			<div class="sheetheader">
+				<span class="headertext">CUESTIONARIO</span>
+			</div>
+			<form name="form5" id="form5" onsubmit="return Submit()">
+			<table id="table5" class="questiontable">
+				<tr id="instr" class="section">
+					<td colspan="3">
+									<span class="instrtext"><p>A continuación, una bebida se refiere a cualquier bebida que contiene aproximadamente 14 gramos de etanol o alcohol puro. Las bebidas que siguen a continuación son de diferentes tamaños sin embargo su contenido de alcohol es el mismo. Es por eso que todas son consideradas una bebida.<br />
+									<img src="bebidas.png" style="display: block; margin: auto" />
+										</p></span>
+					</td>
+				</tr>
+
+				<tr id="q1" class="section">
+								<td class="blankspace"></td>
+								<td class="question">
+												¿Con qué frecuencia consume alguna bebida alcohólica?
+								</td>
+								<td class="answer">
+												<input type="radio" name="audit_1" id="audit_1_1" value="0" required> <label for="audit_1_1">Nunca</label><br />
+												<input type="radio" name="audit_1" id="audit_1_2" value="1" required> <label for="audit_1_2">Una o menos veces al mes</label><br />
+												<input type="radio" name="audit_1" id="audit_1_3" value="2" required> <label for="audit_1_3">De 2 a 4 veces al mes</label><br />
+												<input type="radio" name="audit_1" id="audit_1_4" value="3" required> <label for="audit_1_4">De 2 a 3 veces a la semana</label><br />
+												<input type="radio" name="audit_1" id="audit_1_5" value="4" required> <label for="audit_1_5">4 ó más veces a la semana</label><br />
+							</td>
+				</tr>
+
+				<tr id="q2" class="section">
+								<td class="blankspace"></td>
+								<td class="question">
+											¿Cuantas bebidas alcohólicas suele consumir en un día de consumo normal?
+								</td>
+								<td class="answer">
+												<input type="radio" name="audit_2" id="audit_2_1" value="0" required> <label for="audit_2_1">1 ó 2</label><br />
+												<input type="radio" name="audit_2" id="audit_2_2" value="1" required> <label for="audit_2_2">3 ó 4</label><br />
+												<input type="radio" name="audit_2" id="audit_2_3" value="2" required> <label for="audit_2_3">5 ó 6</label><br />
+												<input type="radio" name="audit_2" id="audit_2_4" value="3" required> <label for="audit_2_4">7 a 9</label><br />
+												<input type="radio" name="audit_2" id="audit_2_5" value="4" required> <label for="audit_2_5">10 ó más</label><br />
+							</td>
+				</tr>
+
+				<tr id="q3" class="section">
+								<td class="blankspace"></td>
+								<td class="question">
+											¿Con qué frecuencia toma 5 ó más bebidas alcohólicas en un solo día?
+								</td>
+								<td class="answer">
+												<input type="radio" name="audit_3" id="audit_3_1" value="0" required> <label for="audit_3_1">Nunca</label><br />
+												<input type="radio" name="audit_3" id="audit_3_2" value="1" required> <label for="audit_3_2">Menos de una vez al mes</label><br />
+												<input type="radio" name="audit_3" id="audit_3_3" value="2" required> <label for="audit_3_3">Mensualmente</label><br />
+												<input type="radio" name="audit_3" id="audit_3_4" value="3" required> <label for="audit_3_4">Semanalmente</label><br />
+												<input type="radio" name="audit_3" id="audit_3_5" value="4" required> <label for="audit_3_5">A diario o casi a diario</label><br />
+								</td>
+				</tr>
+
+				<tr id="q4" class="section">
+								<td class="blankspace"></td>
+								<td class="question">
+											¿Con qué frecuencia en el curso del último año ha sido incapz de parar de beber una vez que empezó?
+								</td>
+								<td class="answer">
+												<input type="radio" name="audit_4" id="audit_4_1" value="0" required> <label for="audit_4_1">Nunca</label><br />
+												<input type="radio" name="audit_4" id="audit_4_2" value="1" required> <label for="audit_4_2">Menos de una vez al mes</label><br />
+												<input type="radio" name="audit_4" id="audit_4_3" value="2" required> <label for="audit_4_3">Mensualmente</label><br />
+												<input type="radio" name="audit_4" id="audit_4_4" value="3" required> <label for="audit_4_4">Semanalmente</label><br />
+												<input type="radio" name="audit_4" id="audit_4_5" value="4" required> <label for="audit_4_5">A diario o casi a diario</label><br />
+							</td>
+				</tr>
+
+				<tr id="q5" class="section">
+								<td class="blankspace"></td>
+								<td class="question">
+											¿Con qué frecuencia en el curso del último año no pudo hacer lo que se esperaba de usted porque había bebido?
+								</td>
+								<td class="answer">
+												<input type="radio" name="audit_5" id="audit_5_1" value="0" required> <label for="audit_5_1">Nunca</label><br />
+												<input type="radio" name="audit_5" id="audit_5_2" value="1" required> <label for="audit_5_2">Menos de una vez al mes</label><br />
+												<input type="radio" name="audit_5" id="audit_5_3" value="2" required> <label for="audit_5_3">Mensualmente</label><br />
+												<input type="radio" name="audit_5" id="audit_5_4" value="3" required> <label for="audit_5_4">Semanalmente</label><br />
+												<input type="radio" name="audit_5" id="audit_5_5" value="4" required> <label for="audit_5_5">A diario o casi a diario</label><br />
+							</td>
+				</tr>
+
+				<tr id="q6" class="section">
+								<td class="blankspace"></td>
+								<td class="question">
+											¿Con qué frecuencia en el curso del último año ha necesitado beber en ayunas para recuperarse después de haber bebido mucho el día anterior?									</td>
+								<td class="answer">
+												<input type="radio" name="audit_6" id="audit_6_1" value="0" required> <label for="audit_6_1">Nunca</label><br />
+												<input type="radio" name="audit_6" id="audit_6_2" value="1" required> <label for="audit_6_2">Menos de una vez al mes</label><br />
+												<input type="radio" name="audit_6" id="audit_6_3" value="2" required> <label for="audit_6_3">Mensualmente</label><br />
+												<input type="radio" name="audit_6" id="audit_6_4" value="3" required> <label for="audit_6_4">Semanalmente</label><br />
+												<input type="radio" name="audit_6" id="audit_6_5" value="4" required> <label for="audit_6_5">A diario o casi a diario</label><br />
+							</td>
+				</tr>
+
+				<tr id="q7" class="section">
+								<td class="blankspace"></td>
+								<td class="question">
+											¿Con qué frecuencia en el curso del último año ha tenido remordimientos o sentimientos de culpa después de haber bebido?
+								</td>
+								<td class="answer">
+												<input type="radio" name="audit_7" id="audit_7_1" value="0" required> <label for="audit_7_1">Nunca</label><br />
+												<input type="radio" name="audit_7" id="audit_7_2" value="1" required> <label for="audit_7_2">Menos de una vez al mes</label><br />
+												<input type="radio" name="audit_7" id="audit_7_3" value="2" required> <label for="audit_7_3">Mensualmente</label><br />
+												<input type="radio" name="audit_7" id="audit_7_4" value="3" required> <label for="audit_7_4">Semanalmente</label><br />
+												<input type="radio" name="audit_7" id="audit_7_5" value="4" required> <label for="audit_7_5">A diario o casi a diario</label><br />
+							</td>
+				</tr>
+
+				<tr id="q8" class="section">
+								<td class="blankspace"></td>
+								<td class="question">
+											¿Con qué frecuencia en el curso del último año no ha podido recordar lo que sucedió la noche anterior porque había estado bebiendo?
+								</td>
+								<td class="answer">
+												<input type="radio" name="audit_8" id="audit_8_1" value="0" required> <label for="audit_8_1">Nunca</label><br />
+												<input type="radio" name="audit_8" id="audit_8_2" value="1" required> <label for="audit_8_2">Menos de una vez al mes</label><br />
+												<input type="radio" name="audit_8" id="audit_8_3" value="2" required> <label for="audit_8_3">Mensualmente</label><br />
+												<input type="radio" name="audit_8" id="audit_8_4" value="3" required> <label for="audit_8_4">Semanalmente</label><br />
+												<input type="radio" name="audit_8" id="audit_8_5" value="4" required> <label for="audit_8_5">A diario o casi a diario</label><br />
+							</td>
+				</tr>
+
+				<tr id="q9" class="section">
+								<td class="blankspace"></td>
+								<td class="question">
+											¿Usted o alguna otra persona ha resultado herido(a) porque usted había bebido?
+								</td>
+								<td class="answer">
+												<input type="radio" name="audit_9" id="audit_9_1" value="0" required> <label for="audit_9_1">No</label><br />
+												<input type="radio" name="audit_9" id="audit_9_3" value="2" required> <label for="audit_9_3">Sí, pero no en el curso del último año</label><br />
+												<input type="radio" name="audit_9" id="audit_9_5" value="4" required> <label for="audit_9_5">Sí, el último año</label><br />
+							</td>
+				</tr>
+
+				<tr id="q10" class="section">
+								<td class="blankspace"></td>
+								<td class="question">
+											¿Algún familiar, amigo, médico o profesional sanitario ha mostrado preocupación por su consumo de bebidas alcohólicas o le ha sugerido que deje de beber?
+								</td>
+								<td class="answer">
+												<input type="radio" name="audit_10" id="audit_10_1" value="0" required> <label for="audit_10_1">No</label><br />
+												<input type="radio" name="audit_10" id="audit_10_3" value="2" required> <label for="audit_10_3">Sí, pero no en el curso del último año</label><br />
+												<input type="radio" name="audit_10" id="audit_10_5" value="4" required> <label for="audit_10_5">Sí, el último año</label><br />
+							</td>
+				</tr>
+
+				<tr class="section">
+					<td class="surveysubmit" colspan="3">
+						<input type="submit" class="submitbutton" value="Siguiente">
+					</td>
+				</tr>
+
+			</table>
+			</form>
+		</div>
+
+		<script src="form5.js"></script>
+		<script src="form_global.js"></script>
+
+	</body>
+</html>
+

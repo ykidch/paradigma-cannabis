@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" 
+					type="text/css"
+					href="form.css" />
+		<link rel="stylesheet"
+					type="text/css"
+					href="video.css" />
+	</head>
+	<body>
+		<div id="sheet1" class="sheet">
+			<div class="sheetheader">
+				<span class="headertext" style="text-align:center">INSTRUCCIONES PARTE 2/2</span>
+			</div>
+			
+			<table id="table1" class="questiontable">
+				<tr id="instr" class="section">
+					<td>		
+						<span style="font-size: 16px; display: block; padding: 30px">
+						Adicionalmente, justo encima de la barra verás una casilla con una "X":
+						<br />
+						</span>
+					</td>
+				</tr>
+
+				<tr class="section">
+					<td>
+						<div id="attentionbar">
+							X
+						</div>
+						<div id="bar">
+								<div id="bar_left">							
+									<span class="sidetext" id="bar_left_text"><p>Deseo de<br />consumir<br />marihuana</p></span>
+								</div>
+								<div id="bar_num">
+									<div id="bar_num1">								
+													<span class="numtext" id="bar_num1_text"><p>Nada<br />(1)</p></span>
+									</div>
+									<div id="bar_num2">
+													<span class="numtext" id="bar_num2_text"><p>Poco<br />(2)</p></span>
+									</div>
+									<div id="bar_num3">
+													<span class="numtext" id="bar_num3_text"><p>Mucho<br />(3)</p></span>
+									</div>				
+									<div id="bar_num4">
+													<span class="numtext" id="bar_num4_text"><p>Demasiado<br />(4)</p></span>
+									</div>	
+								</div>
+								<div id="bar_right">
+										<div id="bar_right1">
+											<img src="speaker.png" id="speaker" />
+										</div>
+										<div id="bar_right2">
+											<input type="range" id="volume" min="0" max="1" value="0.40" step="0.05" />	
+										</div>
+								</div>
+							</div>
+					</td>
+				</tr>
+				
+				<tr class="section">
+					<td>
+						<span style="font-size: 16px; display: block; padding: 30px">
+						Cada que esa casilla se ilumine de amarillo, deberás presionar "espacio". Si lo haces correctamente, la casilla se tornará verde para indicar que acertaste y después regresará a su color normal. <br />
+						<br />
+						Trata de no presionar "espacio" cuando la casilla no esté de color amarillo, ya que de ser así, se tornará roja para indicar un error.
+						<br />
+						<br />
+						Puedes probar presionar "espacio" cada que la casilla esté amarilla aquí.
+						<br />
+						<br />
+						Al final te haremos unas preguntas acerca del video, así que trata de poner atención lo más que puedas.
+						</span>
+					</td>
+				</tr>
+
+				<tr class="section">
+					<td>
+						<span style="font-size: 16px; display: block; padding: 30px">
+						Cuando estés listo(a), haz click en "Comenzar". Una vez en la página del video, haz click en el símbolo de "play" para empezarlo a ver. El video tarda unos cuantos segundos en empezar.
+						</span>
+					</td>
+				</tr>
+				
+				<tr class="section">
+					<td class="surveysubmit">
+						<button type="button" style="display: block; margin: auto" onclick="window.location.replace('video.html')">Comenzar</button>
+					
+					</td>
+				</tr>
+			</table>
+			
+		</div>
+		<script src="video_instr2.js"></script>
+	</body>
+</html>

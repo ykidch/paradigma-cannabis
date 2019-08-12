@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" 
+					type="text/css"
+					href="form.css" />
+	</head>
+	<body>
+		<div id="sheet1" class="sheet">
+			<div class="sheetheader">
+				<span class="headertext">DATOS GENERALES</span>
+			</div>
+			<form name="form1" id="form1" onsubmit="return Submit()">
+			<table id="table1" class="questiontable">
+				<tr id="q1" class="section">
+					<td class="blankspace"></td>
+					<td class="question">
+						Iniciales de tu nombre:<br />
+						<p style="font-size:11px">En el orden nombre/apellido paterno/apellido materno<br />p. ej. Si te llamas Juan Manuel Rodríguez Ochoa, introduce JMRO.</p>
+					</td>
+					<td class="answer">
+						<input class="textfield" type="text" name="name" id="name" required>
+					</td>
+				</tr>
+				<tr id="q2" class="section">
+					<td class="blankspace"></td>
+					<td class="question">
+						Edad:<br />
+					</td>
+					<td class="answer">
+						<input type="text" pattern="[0-9]?[0-9]" name="age" id="age" required>
+					</td>
+				</tr>
+				<tr id="q3" class="section">
+					<td class="blankspace"></td>
+					<td class="question">
+						Sexo:<br />
+					</td>
+					<td class="answer">
+									<input type="radio" name="gender" id="male" value="male" required>
+									<label for="male">Masculino</label>
+									<input type="radio" name="gender" id="female" value="female" required>
+									<label for="female">Femenino</label>
+					</td>
+				</tr>
+				<tr id="q4" class="section">
+					<td class="blankspace"></td>
+					<td class="question">
+						¿Es la primera vez que entras a esta página?<br />
+					</td>
+					<td class="answer">
+									<input type="radio" name="first_time" id="first_time_yes" value="yes" required>
+									<label for="first_time_yes">Sí</label>
+									<input type="radio" name="first_time" id="first_time_no" value="no" required>
+									<label for="first_time_no">No</label>
+					</td>
+				</tr>
+
+				<tr id="q5" class="section">
+					<td class="blankspace"></td>
+					<td class="question">
+						Señala el último grado de estudios que cursaste o estás cursando<br />
+					</td>
+					<td class="answer">
+									<input type="radio" name="school" id="school_ninguno" value="ninguno" required>
+									<label for="school_ninguno">Ninguno</label><br />
+
+									<input type="radio" name="school" id="school_preescolar" value="preescolar" required>
+									<label for="school_preescolar">Preescolar</label><br />
+
+
+									<input type="radio" name="school" id="school_primaria" value="primaria" required>
+									<label for="school_primaria">Primaria</label><br />
+
+									
+									<input type="radio" name="school" id="school_secundaria" value="secundaria" required>
+									<label for="school_secundaria">Secundaria</label><br />
+
+
+									<input type="radio" name="school" id="school_preparatoria" value="preparatoria" required>
+									<label for="school_preparatoria">Preparatoria</label><br />
+
+
+									<input type="radio" name="school" id="school_carrera_tecnica" value="carrera_tecnica" required>
+									<label for="school_carrera_tecnica">Carrera técnica</label><br />
+
+
+									<input type="radio" name="school" id="school_licenciatura" value="licenciatura" required>
+									<label for="school_licenciatura">Licenciatura</label><br />
+
+
+									<input type="radio" name="school" id="school_maestria" value="maestria" required>
+									<label for="school_maestria">Maestría</label><br />
+
+
+									<input type="radio" name="school" id="school_doctorado" value="doctorado" required>
+									<label for="school_doctorado">Doctorado</label><br />
+
+
+									<input type="radio" name="school" id="school_especialidad" value="especialidad" required>
+									<label for="school_especialidad">Especialidad</label><br />
+
+					</td>
+				</tr>
+				
+				<tr id="q6" class="section">
+					<td class="blankspace"></td>
+					<td class="question">
+						¿A qué te dedicas actualmente?<br />
+					</td>
+					<td class="answer">
+						<input class="textfield" type="text" name="occupation" id="occupation" required>
+					</td>
+				</tr>
+
+
+<tr class="section">
+					<td class="surveysubmit" colspan="3">
+						<input type="submit" class="submitbutton" value="Siguiente">
+					</td>
+				</tr>
+			</table>
+			</form>
+		</div>
+
+		<script src="form1.js"></script>
+		<script src="form_global.js"></script>
+
+	</body>
+</html>
+-

@@ -1,0 +1,43 @@
+Goal: make a web implementation of the cannabis paradigm
+Features:-Easily modifiable
+
+Plan:
+-make webpage with HTML, CSS, and JS in my terminal (handle video events, store them in some data structure inside JS)
+	what data should I store? - keypress - time key:value pairs *done
+	in which data structure? - JSON *done
+	add attention cue to make sure they're actually there
+	add pretraining session for cravingrate and attention cue
+	force fullscreen browser
+	PERFORMANCE ISSUES - video streams really slow - stream through the CloudFront?
+-upload it to a server
+-make client send data to server (make client send the data structure back, probably need server-side scripting e.g. node.js?)
+	more simple: <form> or ajax or fetch or XMLHttpRequest
+
+
+
+*secure it (make it so that only I can access data)
+
+
+-also build the form in HTML, CSS, and JS
+*ensure not in mobile device?
+
+Check end.js actually works
+Check in formafter2.html if the textarea's get stored in the JSON
+
+#Disclaimer al principio
+#del corrido
+#"barra de X" en vez de casilla
+#Preguntar a qué edad empezaron a fumar, grado de estudios
+#Avisar que voy a preguntar sobre le video despues
+#Dar indicacion de que le den play
+#Repetir antojo *de consumir marihuana*
+Mandar cuestionario a 10 psicologos (MCQ-SF)
+
+#11/08/2019
+-Changed form_global.js (if (rawData != null) {*let* data = JSON.parse(rawData)}-Added if statement to distinguish radio and checkbox and correctly store them
+
+
+
+
+aws s3 cp . s3://testpilotm --recursive --include "*" --exclude "*.mp4*" --grants read=uri=http://acs.amazonaws.com/groups/global/AllUsers
+

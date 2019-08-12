@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" 
+					type="text/css"
+					href="form.css" />
+	</head>
+	<body>
+		<div id="sheet1" class="sheet">
+			<div class="sheetheader">
+				<span class="headertext">CUESTIONARIO</span>
+			</div>
+			<form name="form2" id="form2" onsubmit="return Submit()">
+			<table id="table2" class="questiontable">
+				<tr id="q1" class="section">
+					<td class="blankspace"></td>
+					<td class="question">
+						¿Consumes marihuana?
+					</td>
+					<td class="answer">
+						<input type="radio" name="cannabis_yn" id="cannabis_yn_yes" value="yes" required>
+						<label for="cannabis_yn_yes">Sí</label>
+						<input type="radio" name="cannabis_yn" id="cannabis_yn_no" value="no" required>
+						<label for="cannabis_yn_no">No</label>
+					</td>
+				</tr>
+				<tr id="q2" class="section">
+					<td class="blankspace"></td>
+					<td class="question">
+						¿Cuántos días a la semana consumes marihuana en promedio?<br />
+					</td>
+					<td class="answer">
+						<input type="text" pattern="[0-7]" name="cannabis_days" id="cannabis_days" required>
+					</td>
+				</tr>
+				<tr id="q3" class="section">
+					<td class="blankspace"></td>
+					<td class="question">
+						¿Durante cuánto tiempo has estado consumiendo marihuana con esta frecuencia?<br />
+					</td>
+					<td class="answer">
+									<input type="number" name="cannabis_period_months" min="0" id="cannabis_period_months" required>
+									<label for="cannabis_period_months"> meses</label><br /><br />
+									<input type="number" name="cannabis_period_years" min="0" id="cannabis_period_years" required>
+									<label for="cannabis_period_days"> años</label><br />
+					</td>
+				</tr>
+				<tr id="q4" class="section">
+					<td class="blankspace"></td>
+					<td class="question">
+						¿Hace cuántos días fue la última vez que consumiste marihuana?<br />
+					</td>
+					<td class="answer">
+								Hace <input type="number" name="cannabis_last_days" id="cannabis_last_days" min="0" required> días
+					</td>
+				</tr>
+
+				<tr id="q5" class="section">
+					<td class="blankspace"></td>
+					<td class="question">
+						¿A qué edad consumiste marihuana por primera vez?<br />
+					</td>
+					<td class="answer">
+								<input type="number" name="cannabis_age" id="cannabis_age" min="0" required>
+					</td>
+				</tr>
+
+
+				<tr class="section">
+					<td class="surveysubmit" colspan="3">
+						<input type="submit" class="submitbutton" value="Siguiente">
+					</td>
+				</tr>
+			</table>
+			</form>
+		</div>
+
+		<script src="form2.js"></script>
+		<script src="form_global.js"></script>
+
+	</body>
+</html>
+

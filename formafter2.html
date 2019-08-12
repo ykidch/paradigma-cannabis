@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" 
+					type="text/css"
+					href="form.css" />
+	</head>
+	<body>
+		<div id="sheet1" class="sheet">
+			<div class="sheetheader">
+				<span class="headertext">CUESTIONARIO</span>
+			</div>
+			<form name="formafter2" id="formafter2" onsubmit="return SaveData()">
+			<table id="table5" class="questiontable">
+				<tr class="section">
+					<td colspan="3">
+						<table id="traits" class="matrix">
+							<tr>
+								<td colspan="7">
+									<span class="instrtext"><p>Indica qué tan de acuerdo o en desacuerdo estás con los siguientes enunciados:</p></span>
+								</td>
+							</tr>
+							<tr class="matrix_header">
+								<td class="matrix_blankspace"></td>
+								<td class="matrix_question"></td>
+								<td class="matrix_ans">Totalmente en desacuerdo</td>
+								<td class="matrix_ans">En desacuerdo</td>
+								<td class="matrix_ans">Ni de acuerdo ni en desacuerdo</td>
+								<td class="matrix_ans">De acuerdo</td>
+								<td class="matrix_ans">Totalmente de acuerdo</td>						
+							</tr>
+
+							<tr id="q1" class="matrix_row">
+								<td class="matrix_blankspace"></td>
+								<td class="matrix_question">
+									El video me pareció interesante
+								</td>
+								<td class="matrix_ans">
+										<input type="radio" name="interest" id="interest_1" value="1" required>
+								</td>
+								<td class="matrix_ans">	
+										<input type="radio" name="interest" id="interest_2" value="2" required>
+								</td>							
+								<td class="matrix_ans">							
+										<input type="radio" name="interest" id="interest_3" value="3" required>
+								</td>
+								<td class="matrix_ans">							
+										<input type="radio" name="interest" id="interest_4" value="4" required>
+								</td>
+								<td class="matrix_ans">							
+										<input type="radio" name="interest" id="interest_5" value="5" required>
+								</td>		
+							</tr>
+
+							<tr id="q2" class="matrix_row">
+								<td class="matrix_blankspace"></td>
+								<td class="matrix_question">
+									Me aburrí durante el video
+								</td>
+								<td class="matrix_ans">
+										<input type="radio" name="boredom" id="boredom_1" value="1" required>
+								</td>
+								<td class="matrix_ans">	
+										<input type="radio" name="boredom" id="boredom_2" value="2" required>
+								</td>							
+								<td class="matrix_ans">							
+										<input type="radio" name="boredom" id="boredom_3" value="3" required>
+								</td>
+								<td class="matrix_ans">							
+										<input type="radio" name="boredom" id="boredom_4" value="4" required>
+								</td>
+								<td class="matrix_ans">							
+										<input type="radio" name="boredom" id="boredom_5" value="5" required>
+								</td>		
+							</tr>
+
+							<tr id="q3" class="matrix_row">
+								<td class="matrix_blankspace"></td>
+								<td class="matrix_question">
+									Puse atención durante todo el video
+								</td>
+								<td class="matrix_ans">
+										<input type="radio" name="attention" id="attention_1" value="1" required>
+								</td>
+								<td class="matrix_ans">	
+										<input type="radio" name="attention" id="attention_2" value="2" required>
+								</td>							
+								<td class="matrix_ans">							
+										<input type="radio" name="attention" id="attention_3" value="3" required>
+								</td>
+								<td class="matrix_ans">							
+										<input type="radio" name="attention" id="attention_4" value="4" required>
+								</td>
+								<td class="matrix_ans">							
+										<input type="radio" name="attention" id="attention_5" value="5" required>
+								</td>		
+							</tr>
+						</table>
+					</td>
+				</tr>
+
+				<tr id="q4" class="section">
+					<td class="blankspace"></td>
+					<td class="question">
+						Describe qué viste en el video<br />
+					</td>
+					<td class="answer">
+							<textarea name="describe" rows="8" cols="70" required></textarea>
+					</td>
+				</tr>
+
+				<tr id="q5" class="section">
+					<td class="blankspace"></td>
+					<td class="question">
+						En la parte en la que se mostraba el cannabis a la cámara, ¿notaste alguna cualidad del cannabis?<br />
+					</td>
+					<td class="answer">
+							<textarea name="special" rows="8" cols="70" required></textarea>
+					</td>
+				</tr>
+				
+				<tr id="q6" class="section">
+					<td class="blankspace"></td>
+					<td class="question">
+						¿Notaste algo raro en la parte donde el sujeto estaba tomando agua?<br />
+					</td>
+					<td class="answer">
+							<textarea name="raro_agua" rows="8" cols="70" required></textarea>
+					</td>
+				</tr>
+				
+				<tr id="q7" class="section">
+					<td class="blankspace"></td>
+					<td class="question">
+						¿Notaste algo raro en la parte donde el sujeto estaba fumando?<br />
+					</td>
+					<td class="answer">
+							<textarea name="raro_fumar" rows="8" cols="70" required></textarea>
+					</td>
+				</tr>
+				
+				<tr id="q8" class="section">
+					<td class="blankspace"></td>
+					<td class="question">
+						¿Notaste que había algunas secuencias duplicadas en la parte en que el sujeto estaba tomando agua?<br />
+					</td>
+					<td class="answer">
+									<input type="radio" name="raro_dup_agua" id="raro_dup_agua_yes" value="yes" required>
+									<label for="raro_dup_agua_yes">Sí</label>
+									<input type="radio" name="raro_dup_agua" id="raro_dup_agua_no" value="no" required>
+									<label for="raro_dup_agua_no">No</label>
+					</td>
+				</tr>
+
+				<tr id="q9" class="section">
+					<td class="blankspace"></td>
+					<td class="question">
+						¿Qué sentiste cuando el sujeto terminó de preparar el porro, pero tuviste que verlo hacer otra cosa antes de que lo fumara?<br />
+					</td>
+					<td class="answer">
+							<textarea name="despues_porro" rows="8" cols="70" required></textarea>
+					</td>
+				</tr>
+
+				<tr id="q10" class="section">
+					<td class="blankspace"></td>
+					<td class="question">
+						¿Alguna parte del video te molestó o te perturbó?<br />
+					</td>
+					<td class="answer">
+							<textarea name="perturb" rows="8" cols="70" required></textarea>
+					</td>
+				</tr>
+
+				<tr id="q11" class="section">
+					<td class="blankspace"></td>
+					<td class="question">
+						¿Tienes algún comentario adicional sobre el video?<br />
+					</td>
+					<td class="answer">
+							<textarea name="comment" rows="8" cols="70"></textarea>
+					</td>
+				</tr>
+
+				<tr class="section">
+					<td class="surveysubmit" colspan="3">
+						<input type="submit" class="submitbutton" value="Siguiente">
+					</td>
+				</tr>
+			</table>
+			</form>
+		</div>
+
+		<script src="end.js"></script>
+
+	</body>
+</html>
+

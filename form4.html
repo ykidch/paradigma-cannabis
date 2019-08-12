@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" 
+					type="text/css"
+					href="form.css" />
+	</head>
+	<body>
+		<div id="sheet1" class="sheet">
+			<div class="sheetheader">
+				<span class="headertext">CUESTIONARIO</span>
+			</div>
+			<form name="form4" id="form4" onsubmit="return Submit()">
+			<table id="table4" class="questiontable">
+				<tr id="q0" class="section">
+								<td class="blankspace"></td>
+								<td class="question">
+												¿Fumas tabaco?
+								</td>
+								<td class="answer">
+												<input type="radio" name="tabaco_act" id="tabaco_act_yes" value="yes" required> <label for="tabaco_act_yes">Sí</label>
+												<input type="radio" name="tabaco_act" id="tabaco_act_no" value="no" required> <label for="tabaco_act_yes">No</label>
+								</td>
+				</tr>
+
+				<tr id="q1" class="section">
+								<td class="blankspace"></td>
+								<td class="question">
+												¿Cuánto tiempo después de despertarse fuma su primer cigarrillo?
+								</td>
+								<td class="answer">
+												<input type="radio" name="fagerstrom_1" id="fagerstrom_1_1" value="3" required> <label for="fagerstrom_1_1">Menos de 5 minutos</label><br />
+												<input type="radio" name="fagerstrom_1" id="fagerstrom_1_2" value="2" required> <label for="fagerstrom_1_2">6 - 30 minutos</label><br />
+												<input type="radio" name="fagerstrom_1" id="fagerstrom_1_3" value="1" required> <label for="fagerstrom_1_3">31 - 60 minutos</label><br />
+												<input type="radio" name="fagerstrom_1" id="fagerstrom_1_4" value="0" required> <label for="fagerstrom_1_4">Más de 60 minutos</label><br />
+								</td>
+				</tr>
+
+				<tr id="q2" class="section">
+								<td class="blankspace"></td>
+								<td class="question">
+												¿Encuentra dificultad para no fumar en los sitios donde está prohibido (p. ej. cine)?
+								</td>
+								<td class="answer">
+												<input type="radio" name="fagerstrom_2" id="fagerstrom_2_1" value="1" required> <label for="fagerstrom_2_1">Sí</label><br />
+												<input type="radio" name="fagerstrom_2" id="fagerstrom_2_2" value="0" required> <label for="fagerstrom_2_2">No</label><br />
+								</td>
+				</tr>
+
+				<tr id="q3" class="section">
+								<td class="blankspace"></td>
+								<td class="question">
+											¿Qué cigarrillo le desagrada más dejar de fumar?														</td>
+								<td class="answer">
+												<input type="radio" name="fagerstrom_3" id="fagerstrom_3_1" value="1" required> <label for="fagerstrom_3_1">El primero</label><br />
+												<input type="radio" name="fagerstrom_3" id="fagerstrom_3_2" value="0" required> <label for="fagerstrom_3_2">Otros</label><br />
+								</td>
+				</tr>
+				
+				<tr id="q4" class="section">
+								<td class="blankspace"></td>
+								<td class="question">
+											¿Cuántos cigarrillos fuma cada día?
+								</td>
+								<td class="answer">
+												<input type="radio" name="fagerstrom_4" id="fagerstrom_4_1" value="3" required> <label for="fagerstrom_4_1">31 ó más</label><br />
+												<input type="radio" name="fagerstrom_4" id="fagerstrom_4_2" value="2" required> <label for="fagerstrom_4_2">21 - 30</label><br />
+												<input type="radio" name="fagerstrom_4" id="fagerstrom_4_3" value="1" required> <label for="fagerstrom_4_1">11 - 20</label><br />
+												<input type="radio" name="fagerstrom_4" id="fagerstrom_4_4" value="0" required> <label for="fagerstrom_4_2">10 ó menos</label><br />
+								</td>
+				</tr>
+
+				<tr id="q5" class="section">
+								<td class="blankspace"></td>
+								<td class="question">
+										¿Fuma más durante las primeras horas tras levantarse que durante el resto del día?
+								</td>
+								<td class="answer">
+												<input type="radio" name="fagerstrom_5" id="fagerstrom_5_1" value="1" required> <label for="fagerstrom_5_1">Sí</label><br />
+												<input type="radio" name="fagerstrom_5" id="fagerstrom_5_2" value="0" required> <label for="fagerstrom_5_2">No</label><br />
+								</td>
+				</tr>
+
+				<tr id="q6" class="section">
+								<td class="blankspace"></td>
+								<td class="question">
+										¿Fuma aunque esté tan enfermo que tenga que guardar cama la mayor parte del día?
+								</td>
+								<td class="answer">
+												<input type="radio" name="fagerstrom_6" id="fagerstrom_6_1" value="1" required> <label for="fagerstrom_6_1">Sí</label><br />
+												<input type="radio" name="fagerstrom_6" id="fagerstrom_6_2" value="0" required> <label for="fagerstrom_6_2">No</label><br />
+								</td>
+				</tr>
+
+				<tr class="section">
+					<td class="surveysubmit" colspan="3">
+						<input type="submit" class="submitbutton" value="Siguiente">
+					</td>
+				</tr>
+			</table>
+			</form>
+		</div>
+
+		<script src="form4.js"></script>
+		<script src="form_global.js"></script>
+
+	</body>
+</html>
